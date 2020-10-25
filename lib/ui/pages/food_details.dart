@@ -4,7 +4,8 @@ class FoodDetailsPage extends StatefulWidget {
   final Function onBackButtonPressed;
   final Food food;
 
-  const FoodDetailsPage({Key key, this.onBackButtonPressed, this.food}) : super(key: key);
+  const FoodDetailsPage({Key key, this.onBackButtonPressed, this.food})
+      : super(key: key);
 
   @override
   _FoodDetailsPageState createState() => _FoodDetailsPageState();
@@ -28,7 +29,9 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
             height: 300,
             width: double.infinity,
             decoration: BoxDecoration(
-              image: DecorationImage(image: NetworkImage(widget.food.picturePath), fit: BoxFit.cover),
+              image: DecorationImage(
+                  image: NetworkImage(widget.food.picturePath),
+                  fit: BoxFit.cover),
             ),
           )),
           SafeArea(
@@ -55,7 +58,7 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(8),
                               color: Colors.black12),
-                          child: Image.asset('assets/back_arrow_white.png'),
+                          // child: Image.asset('assets/back_arrow_white.png')
                         ),
                       ),
                     ),

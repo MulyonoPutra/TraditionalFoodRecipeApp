@@ -48,7 +48,7 @@ class CustomTabBar extends StatelessWidget {
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(1.5),
                                 color: (titles.indexOf(e) == selectedIndex)
-                                    ? "020202".toColor()
+                                    ? Colors.purple
                                     : Colors.transparent),
                           )
                         ],

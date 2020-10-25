@@ -16,7 +16,7 @@ class FoodListItem extends StatelessWidget {
           width: 60,
           margin: EdgeInsets.only(right: 12),
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(8),
+              borderRadius: BorderRadius.circular(28),
               image: DecorationImage(
                   image: NetworkImage(food.picturePath), fit: BoxFit.cover)),
         ),

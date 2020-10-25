@@ -1,7 +1,6 @@
 part of 'pages.dart';
 
 class FoodPages extends StatefulWidget {
-
   final Food food;
 
   const FoodPages({Key key, this.food}) : super(key: key);
@@ -12,7 +11,6 @@ class FoodPages extends StatefulWidget {
 
 class _FoodPagesState extends State<FoodPages> {
   int selectedIndex = 0;
-  
 
   @override
   Widget build(BuildContext context) {
