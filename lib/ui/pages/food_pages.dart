@@ -73,9 +73,14 @@ class _FoodPagesState extends State<FoodPages> {
                           .map((e) => Padding(
                                 padding: EdgeInsets.fromLTRB(
                                     defaultMargin, 0, defaultMargin, 16),
-                                child: FoodListItem(
-                                  food: e,
-                                  itemWidth: listItemWidth,
+                                child: GestureDetector(
+                                  onTap: () {
+                                    Get.to(FoodDetailsPage(food: e));
+                                  },
+                                  child: FoodListItem(
+                                    food: e,
+                                    itemWidth: listItemWidth,
+                                  ),
                                 ),
                               ))
                           .toList(),
