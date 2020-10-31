@@ -24,8 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: AnnotatedRegion<SystemUiOverlayStyle>(
-        value: SystemUiOverlayStyle.light,
+      body: Container(
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
@@ -43,23 +42,14 @@ class _SplashScreenState extends State<SplashScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      // Center(
-                      //   child: Image(
-                      //     image: AssetImage(
-                      //       'assets/images/food_bg.jpg',
-                      //     ),
-                      //     height: 300.0,
-                      //     width: 300.0,
-                      //   ),
-                      // ),
                       SizedBox(height: 70.0),
                       Padding(padding: EdgeInsets.only(top: 300)),
                       Text(
                         'Traditional Food Recipe',
                         style: GoogleFonts.pacifico(
-                        fontWeight: FontWeight.w800,
-                        fontSize: 28,
-                        color: Colors.purple[200]),
+                            fontWeight: FontWeight.w800,
+                            fontSize: 28,
+                            color: Colors.purple[200]),
                       ),
                       SizedBox(height: 15.0),
                     ],

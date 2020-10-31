@@ -10,7 +10,7 @@ TextStyle blackFontStyle1 = GoogleFonts.firaCode()
     .copyWith(color: Colors.black, fontSize: 22, fontWeight: FontWeight.w500);
 TextStyle blackFontStyle2 = GoogleFonts.firaCode()
     .copyWith(color: Colors.black, fontSize: 16, fontWeight: FontWeight.w500);
-TextStyle blackFontStyle3 = GoogleFonts.firaCode().copyWith(color: Colors.black);
+TextStyle blackFontStyle3 = GoogleFonts.firaCode().copyWith(color: Colors.black, fontWeight: FontWeight.w800);
 
 Widget loadingIndicator = SpinKitFadingCircle(
   size: 45,

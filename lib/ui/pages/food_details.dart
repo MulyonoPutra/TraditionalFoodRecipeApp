@@ -85,7 +85,7 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
                                   width: MediaQuery.of(context).size.width -
                                       134, // 32 - 102
                                   child: Text(widget.food.name,
-                                      style: blackFontStyle2),
+                                      style: blackFontStyle2.copyWith(fontWeight: FontWeight.w700)),
                                 ),
                                 SizedBox(
                                   height: 6,
@@ -106,7 +106,7 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
                               132, // 32 - 102
                           child: Text(
                             'Ingredients: ',
-                            style: blackFontStyle3,
+                            style: blackFontStyle3, 
                           ),
                         ),
                         Container(

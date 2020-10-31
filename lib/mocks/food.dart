@@ -70,11 +70,11 @@ List<Food> mockFoods = [
       types: [FoodType.new_food]),
   Food(
       id: 4,
-      picturePath: "https://tempatwisataindonesia.id/wp-content/uploads/2017/08/wedang_ronde.jpg",
-      name: "Wedang Ronde",
+      picturePath: "https://1.bp.blogspot.com/-iA5TZmNo5so/XJm0JSM2QgI/AAAAAAAAAls/CkraB7ukNV0z9c12NJT7g8W6Hsw2HZGGgCLcBGAs/s1600/kue%2Bjahe.jpg",
+      name: "Sagon Bakar",
       description:
-          "Makanan khas Kab Sukabumi yang satu ini dijual di warung makan bandros mang Atta juga. Kawasan kuliner yang kerap menjadi tempat nongkrong anak muda ini hanya berada di trotoar pinggir jalan. Namun selalu ramai dikunjungi oleh pembeli. Di warung ini, selain kamu bisa mencicipi bandros dan wedang jahe, kamu juga harus mencicipi wedang ronde yang merupakan minuman penghangat tubuh. Wedang ronde ini hanya bisa kamu dapatkan di malam hari saja.",
-      ingredients: "Tepung Terigu, Mentega, Coklat, Keju",
+          "Makanan ini terbuat dari kelapa, aci dan bahan-bahan lainnya. Sagon Bakar Ciaul sendiri merupakan makanan khas Sukabumi yang mempunyai cita rasa yang gurih dan renyah. Terdapat berbagai macam rasa di antaranya rasa original, cokelat, kopi, keju dan masih banyak lagi. Sagon Bakar Ciaul baik untuk kamu yang memiliki alergi dengan terigu (gluten) dan sedang diet rendah lemak. Lemak yang terdapat pada kelapa berkurang saat proses pengovenan..",
+      ingredients: "Kelapa, Aci",
       price: 15000,
       rate: 4.1,
       types: [FoodType.recomended]),
